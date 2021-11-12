@@ -33,7 +33,7 @@ Rust Embedded programming study for ESP32-C3
   - Ai-Thinker Modules
 
     ESP32-C3- | Pkg | Size/mm | Ant | IO total | IO list | IO list | Flash
-     --: | -- | -- | -- | -- | -- | -- | -- 
+     :-- | -- | -- | -- | -- | -- | -- | -- 
     M1-l | SMD-61 | 12.5x13.2x2.4 | IPEX  | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M (Int) 
     M1   | SMD-61 | 16.6x13.2x2.4 | OnBrd | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M (Int)
     01M  | DIP-18 | 18.0x18.0x2.8 | OnBrd | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S       | 4M (Int)
