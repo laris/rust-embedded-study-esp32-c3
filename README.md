@@ -28,7 +28,23 @@ Rust Embedded programming study for ESP32-C3
   - ESP-C3-13U_Kit: CN EN
   - ESP-C3-13_Kit: CN EN
   - ESP-C3-M1-Kit: CN EN
-  - ESP-C3-M1-I-Kit: CN EN]
+  - ESP-C3-M1-I-Kit: CN EN
+
+  - Ai-Thinker Modules
+
+    ESP32-C3- | Pkg | Size/mm | Ant | IO total | IO list | IO list | Flash
+     --: | -- | -- | -- | -- | -- | -- | -- 
+    M1-l | SMD-61 | 12.5x13.2x2.4 | IPEX  | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M (Int) 
+    M1   | SMD-61 | 16.6x13.2x2.4 | OnBrd | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M (Int)
+    01M  | DIP-18 | 18.0x18.0x2.8 | OnBrd | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S       | 4M (Int)
+    13U  | SMD-18 | 14.0x18.0x3.1 | IPEX  | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S       | 4M/2M (Int/Ext) 
+    13   | SMD-61 | 20.0x18.0x3.1 | I+O   | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M/2M (Int/Ext) 
+    32S  | SMD-38 | 25.5x18.0x3.1 | I+O   | 22 | [0,21]        | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M/2M (Int/Ext) 
+    12F  | SMD-22 | 24.0x16.0x3.1 | I+O   | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M/2M (Int/Ext) 
+
+    * Power: 3.0-3.6V >500mA
+    * TTL: 110-4.608Mbps default 115.2k bps
+    * Security: WEP/WPA/2-PSK
 
 ## Rust programming docs
 
