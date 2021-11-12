@@ -4,16 +4,19 @@ Rust Embedded programming study for ESP32-C3
 ## ESP32-C3 chip, devkit
 * [Expressif ESP32-C3 SoC EN](https://www.espressif.com/en/products/socs/esp32-c3)
 * [Expressif ESP32-C3 SoC CN](https://www.espressif.com/zh-hans/products/socs/esp32-c3)
+  - [ESP Product Selector](https://products.espressif.com/#/product-selector)
   - [ESP32-C3 Datasheet v1.1 EN](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
   - [ESP32-C3 Datasheet v1.1 CN](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_cn.pdf)
-  - [Expressif Module ESP32-C3-MINI-1 Datasheet v1.0 EN](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)
-  - [Expressif Module ESP32-C3-MINI-1 Datasheet v1.0 CN](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_cn.pdf)
-  - [Expressif Module ESP32-C3-WROOM-02 Datasheet v1.0 EN](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf)
-  - [Expressif Module ESP32-C3-WROOM-02 Datasheet v1.0 CN](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_cn.pdf)
-  - [Expressif DevKit ESP32-C3-DevKitM-1 docs EN](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html)
-  - [Expressif DevKit ESP32-C3-DevKitM-1 docs CN](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html)
-  - [Expressif DevKit ESP32-C3-DevKitC-02 docs EN](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html)
-  - [Expressif DevKit ESP32-C3-DevKitC-02 docs CN](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html)
+  - [ESP32­-C3 Technical Reference Manual v0.4 EN](https://www.espressif.com/sites/default/files/documentation/esp32-c3_technical_reference_manual_en.pdf)
+  - [ESP32-­C3 Technical Reference Manual v0.4 CN](https://www.espressif.com/sites/default/files/documentation/esp32-c3_technical_reference_manual_cn.pdf)
+  - [Module ESP32-C3-MINI-1 Datasheet v1.0 EN](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf)
+  - [Module ESP32-C3-MINI-1 Datasheet v1.0 CN](https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_cn.pdf)
+  - [Module ESP32-C3-WROOM-02 Datasheet v1.0 EN](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf)
+  - [Module ESP32-C3-WROOM-02 Datasheet v1.0 CN](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_cn.pdf)
+  - [DevKit ESP32-C3-DevKitM-1 docs EN](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html)
+  - [DevKit ESP32-C3-DevKitM-1 docs CN](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html)
+  - [DevKit ESP32-C3-DevKitC-02 docs EN](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html)
+  - [DevKit ESP32-C3-DevKitC-02 docs CN](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html)
 * [Ai-Thinker ESP32-C3 Modules](https://docs.ai-thinker.com/en/esp32c3)
   - ESP-C3-12F: CN EN
   - ESP-C3-32S: CN EN
@@ -32,7 +35,7 @@ Rust Embedded programming study for ESP32-C3
 
   - Ai-Thinker Modules
 
-    ESP32-C3- | Pkg | Size/mm | Ant | IO total | IO list | IO list | Flash
+    ESP32-C3- | Pkg | Size/mm | Ant | GPIO | GPIO | GPIO | Flash
      :-- | -- | -- | -- | -- | -- | -- | -- 
     M1-l | SMD-61 | 12.5x13.2x2.4 | IPEX  | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M (Int) 
     M1   | SMD-61 | 16.6x13.2x2.4 | OnBrd | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M (Int)
@@ -53,6 +56,10 @@ Rust Embedded programming study for ESP32-C3
 
 
 ## ESP32-C3 projects
+* [esp-rs/esp-idf-template](https://github.com/esp-rs/esp-idf-template)
+  > A "Hello, world!" template of a Rust binary crate for the ESP-IDF framework.
+* [ivmarkov/rust-esp32-std-demo: Rust on ESP32 STD demo app](https://github.com/ivmarkov/rust-esp32-std-demo)
+  > A demo STD binary crate for the ESP32[XX] and ESP-IDF, which connects to WiFi, Ethernet, drives a small HTTP server and draws on a LED screen.
 * [ducktec/esp32c3-hal: An experimental Rust HAL for the ESP32-C3 SoC](https://github.com/ducktec/esp32c3-hal)
   > This is an experimental Rust HAL crate for the ESP32-C3 SoC.
   > 
