@@ -1,7 +1,7 @@
 # rust-embedded-study-esp32-c3
 Rust Embedded programming study for ESP32-C3
 
-## ESP32-C3 chip, devkit
+## ESP32-C3 chip, devkit, both pdf file cache in datasheets directory
 * [Expressif ESP32-C3 SoC EN](https://www.espressif.com/en/products/socs/esp32-c3)
 * [Expressif ESP32-C3 SoC CN](https://www.espressif.com/zh-hans/products/socs/esp32-c3)
   - [ESP Product Selector](https://products.espressif.com/#/product-selector)
@@ -18,26 +18,26 @@ Rust Embedded programming study for ESP32-C3
   - [DevKit ESP32-C3-DevKitC-02 docs EN](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html)
   - [DevKit ESP32-C3-DevKitC-02 docs CN](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html)
 * [Ai-Thinker ESP32-C3 Modules](https://docs.ai-thinker.com/en/esp32c3)
-  - ESP-C3-12F: CN EN
-  - ESP-C3-32S: CN EN
-  - ESP-C3-13: CN EN
-  - ESP-C3-13U: CN EN
-  - ESP-C3-01M: CN EN
-  - ESP-C3-M1:CN EN
-  - ESP-C3-M1-I:CN EN 
-  - ESP-C3-12F_Kit: CN EN
-  - ESP32-C3-32S_Kit: CN EN
-  - ESP-C3-01M_Kit: CN EN
-  - ESP-C3-13U_Kit: CN EN
-  - ESP-C3-13_Kit: CN EN
-  - ESP-C3-M1-Kit: CN EN
-  - ESP-C3-M1-I-Kit: CN EN
-
+  - ESP-C3-12F: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-12f规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-12f_specification.pdf)
+  - ESP-C3-32S: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-32s_中文.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-32s_英文.pdf)
+  - ESP-C3-13: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13_specification.pdf)
+  - ESP-C3-13U: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13u规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13u_specification.pdf)
+  - ESP-C3-01M: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-01m规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-01m_specification.pdf)
+  - ESP-C3-M1: [CN](https://docs.ai-thinker.com/_media/esp32/esp-c3-m1_v1.1.1_规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/esp-c3-m1_v1.1.1_specification.pdf)
+  - ESP-C3-M1-I: [CN](https://docs.ai-thinker.com/_media/esp32/esp-c3-m1-i_v1.1.1_规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/esp-c3-m1-i_v1.1.1_specification.pdf)
+  - ESP-C3-12F_Kit: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-12f-kit-v1.0_规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-12f-kit-v1.0_specification.pdf)
+  - ESP32-C3-32S_Kit: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-32s-kit-v1.0_规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-32s-kit-v1.0_specification.pdf)
+  - ESP-C3-01M_Kit: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-01m-kit-v1.0_规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-01m-kit-v1.0_specification.pdf)
+  - ESP-C3-13U_Kit: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13u-kit-v1.0_规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13u-kit-v1.0_specification.pdf)
+  - ESP-C3-13_Kit: [CN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13-kit-v1.0_规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13-kit-v1.0_specification.pdf)
+  - ESP-C3-M1-Kit: [CN](https://docs.ai-thinker.com/_media/esp32/nodemcu-esp-c3-m1-kit_v1.2.0_规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/nodemcu-esp-c3-m1-kit_v1.2.0_specification.pdf)
+  - ESP-C3-M1-I-Kit: [CN](https://docs.ai-thinker.com/_media/esp32/nodemcu-esp-c3-m1-i-kit_v1.2.0_规格书.pdf) [EN](https://docs.ai-thinker.com/_media/esp32/nodemcu-esp-c3-m1-i-kit_v1.2.0_specification.pdf)
+   
   - Ai-Thinker Modules
 
     ESP32-C3- | Pkg | Size/mm | Ant | GPIO | GPIO | GPIO | Flash
      :-- | -- | -- | -- | -- | -- | -- | -- 
-    M1-l | SMD-61 | 12.5x13.2x2.4 | IPEX  | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M (Int) 
+    M1-I | SMD-61 | 12.5x13.2x2.4 | IPEX  | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M (Int) 
     M1   | SMD-61 | 16.6x13.2x2.4 | OnBrd | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S / SPI | 4M (Int)
     01M  | DIP-18 | 18.0x18.0x2.8 | OnBrd | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S       | 4M (Int)
     13U  | SMD-18 | 14.0x18.0x3.1 | IPEX  | 15 | [0,10][18,21] | GPIO / ADC / UART / PWM / I2C / I2S       | 4M/2M (Int/Ext) 
@@ -56,6 +56,7 @@ Rust Embedded programming study for ESP32-C3
 
 
 ## ESP32-C3 projects
+* [esp-rs/rust-build: Workflows for building Rust fork esp-rs/rust with Xtensa support](https://github.com/esp-rs/rust-build)
 * [esp-rs/esp-idf-template](https://github.com/esp-rs/esp-idf-template)
   > A "Hello, world!" template of a Rust binary crate for the ESP-IDF framework.
 * [ivmarkov/rust-esp32-std-demo: Rust on ESP32 STD demo app](https://github.com/ivmarkov/rust-esp32-std-demo)
@@ -64,11 +65,26 @@ Rust Embedded programming study for ESP32-C3
   > This is an experimental Rust HAL crate for the ESP32-C3 SoC.
   > 
   > ⚠️ Please note the emphasis on experimental! Very little works (yet) and what works is not comprehsively tested and will almost certainly contain bugs. Please don't use for real projects at this point in time. The API can and will change.
+* [imxood/learn-rust](https://github.com/imxood/learn-rust)
 * [xuhongv/ESP32WiFiBleControlProject](https://github.com/xuhongv/ESP32WiFiBleControlProject)
   - WeChat applet Bluetooth + WiFi dual control Ai-Thinker ESP32-C3 module application demonstration
   - [微信小程序蓝牙+WiFi控制安信可ESP32-S/C3S模块应用示范 - 帖子 Post (Chinese)](https://aithinker.blog.csdn.net/article/details/114983580)
+
+## ESP32-C3 Tech posts
 * [Rust ESP32-C3 STD "Hello World" - from Jia Ye 知乎](https://zhuanlan.zhihu.com/p/428911351)
- 
+
+## ESP8266, ESP32-S
+* [espressif/llvm-project: Fork of LLVM with Xtensa specific patches. To be upstreamed.](https://github.com/espressif/llvm-project)
+* [esp-rs/rust: Rust for the xtensa architecture. Built in targets for the ESP32 and ESP8266](https://github.com/esp-rs/rust)
+* [esp-rs/esp8266-hal: A experimental hardware abstraction layer for the esp8266 written in Rust.](https://github.com/esp-rs/esp8266-hal)
+
+## ESP8266, ESP32-S Tech Posts
+* https://mabez.dev/blog/posts/esp-rust-ecosystem/
+* https://www.reddit.com/r/rust/comments/gyxbkv/what_is_the_state_of_rust_on_the_esp8266/
+* https://dentrassi.de/2019/06/16/rust-on-the-esp-and-how-to-get-started/ 
+* https://githubmemory.com/repo/coenraadhuman/blinky-esp8266-rust
+* 
+
 ## Issues and solution
 
 
