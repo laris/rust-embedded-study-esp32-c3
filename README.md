@@ -56,16 +56,24 @@ Rust Embedded programming study for ESP32-C3
 
 
 ## ESP32-C3 projects
-* [esp-rs/rust-build: Workflows for building Rust fork esp-rs/rust with Xtensa support](https://github.com/esp-rs/rust-build)
-* [esp-rs/esp-idf-template](https://github.com/esp-rs/esp-idf-template)
-  > A "Hello, world!" template of a Rust binary crate for the ESP-IDF framework.
-* [ivmarkov/rust-esp32-std-demo: Rust on ESP32 STD demo app](https://github.com/ivmarkov/rust-esp32-std-demo)
-  > A demo STD binary crate for the ESP32[XX] and ESP-IDF, which connects to WiFi, Ethernet, drives a small HTTP server and draws on a LED screen.
+* [laris/rust-embedded-study-esp32-c3: Rust Embedded programming study for ESP32-C3](https://github.com/laris/rust-embedded-study-esp32-c3)
+
+* [MabezDev/esp32c3-experiments](https://github.com/MabezDev/esp32c3-experiments)
+* [esp-rs/esp32c3: Peripheral access crate for the ESP32-C3](https://github.com/esp-rs/esp32c3)
+* [ESP32-C3 support · Issue #53 · esp-rs/esp32-hal](https://github.com/esp-rs/esp32-hal/issues/53)
 * [ducktec/esp32c3-hal: An experimental Rust HAL for the ESP32-C3 SoC](https://github.com/ducktec/esp32c3-hal)
   > This is an experimental Rust HAL crate for the ESP32-C3 SoC.
   > 
   > ⚠️ Please note the emphasis on experimental! Very little works (yet) and what works is not comprehsively tested and will almost certainly contain bugs. Please don't use for real projects at this point in time. The API can and will change.
+  - [riscv-software-src/homebrew-riscv: homebrew (macOS) packages for RISC-V toolchain](https://github.com/riscv-software-src/homebrew-riscv)
+* [esp-rs/rust-build: Workflows for building Rust fork esp-rs/rust with Xtensa support](https://github.com/esp-rs/rust-build)
+* [esp-rs/esp-idf-template](https://github.com/esp-rs/esp-idf-template)
+  > A "Hello, world!" template of a Rust binary crate for the ESP-IDF framework.
+
+* [ivmarkov/rust-esp32-std-demo: Rust on ESP32 STD demo app](https://github.com/ivmarkov/rust-esp32-std-demo)
+  > A demo STD binary crate for the ESP32[XX] and ESP-IDF, which connects to WiFi, Ethernet, drives a small HTTP server and draws on a LED screen.
 * [imxood/learn-rust](https://github.com/imxood/learn-rust)
+* [wuxx/nanoESP32-C3: ESP32-C3 dev board by muselab](https://github.com/wuxx/nanoESP32-C3)
 * [xuhongv/ESP32WiFiBleControlProject](https://github.com/xuhongv/ESP32WiFiBleControlProject)
   - WeChat applet Bluetooth + WiFi dual control Ai-Thinker ESP32-C3 module application demonstration
   - [微信小程序蓝牙+WiFi控制安信可ESP32-S/C3S模块应用示范 - 帖子 Post (Chinese)](https://aithinker.blog.csdn.net/article/details/114983580)
