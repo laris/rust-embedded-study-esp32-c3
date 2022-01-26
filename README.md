@@ -57,7 +57,7 @@ Rust Embedded programming study for ESP32-C3
 
 ## ESP32-C3 projects
 * [laris/rust-embedded-study-esp32-c3: Rust Embedded programming study for ESP32-C3](https://github.com/laris/rust-embedded-study-esp32-c3)
-
+* [ducktec/esp32c-rt: Minimal runtime / startup for RISC-V-based CPU's of the ESP32-C SoC series.](https://github.com/ducktec/esp32c-rt)
 * [MabezDev/esp32c3-experiments](https://github.com/MabezDev/esp32c3-experiments)
 * [esp-rs/esp32c3: Peripheral access crate for the ESP32-C3](https://github.com/esp-rs/esp32c3)
 * [ESP32-C3 support · Issue #53 · esp-rs/esp32-hal](https://github.com/esp-rs/esp32-hal/issues/53)
