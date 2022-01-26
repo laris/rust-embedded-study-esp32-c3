@@ -49,6 +49,14 @@ Rust Embedded programming study for ESP32-C3
     * TTL: 110-4.608Mbps default 115.2k bps
     * Security: WEP/WPA/2-PSK
 
+* LuatOS ESP32C3-CORE
+  - [ESP32C3-CORE开发板 - LuatOS 文档](https://wiki.luatos.com/chips/esp32c3/board.html)
+  - [含税9.9元包邮——合宙ESP32-C3核心板来了！！！ - 知乎](https://zhuanlan.zhihu.com/p/458400848)
+  - [dreamcmi/LuatOS-ESP32: LuatOS For ESP32,社区开源版项目](https://github.com/dreamcmi/LuatOS-ESP32)
+  - [LuatOS-ESP32: LuatOS For ESP32,社区开源版项目](https://gitee.com/dreamcmi/LuatOS-ESP32)
+  - [LuatOS-ESP32: LuatOS For ESP32,社区开源版项目 - Gitee.com](https://gitee.com/dreamcmi/LuatOS-ESP32/tree/master/demo)
+
+
 ## Rust programming docs
 
 
